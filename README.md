@@ -43,10 +43,49 @@ DEFAULT_GROUP=TicketPersonali
 PUBLIC_ANNOUNCE=true
 PUBLIC_MENTION_AUTHOR=true
 ```
+
+### 🧩 Example `.env` configuration
+
+Below is an example configuration file (`.env.example`).
+Copy it, rename to `.env`, and fill in your credentials.
+
+```env
+# === DISCORD TOKEN ===
+DISCORD_TOKEN=your_discord_bot_token
+
+# === DISCORD SERVER AUTHORIZED ===
+# Optional: leave empty for global registration or list multiple separated by commas
+GUILD_IDS=    # Example: 111111111111111111,222222222222222222
+
+# === ZAMMAD SETTINGS ===
+ZAMMAD_URL=https://your.zammad.instance
+ZAMMAD_TOKEN=your_zammad_api_token
+
+# === JIRA (optional, disabled by default) ===
+USE_JIRA=false
+# JIRA_URL=https://your.jira.instance
+# JIRA_USER=your_jira_user
+# JIRA_TOKEN=your_jira_api_token
+
+# === FLAGS ===
+PUBLIC_ANNOUNCE=true
+PUBLIC_MENTION_AUTHOR=true
+
+# === DEFAULT GROUPS ===
+DEFAULT_GROUP=MyGroup
+# Optional: Override per server (guild)
+GUILD_DEFAULT_GROUP__111111111111111111=MyGroupMain
+GUILD_DEFAULT_GROUP__222222222222222222=MyGroupWiki
+GUILD_DEFAULT_GROUP__333333333333333333=MyGroupEvents
+GUILD_DEFAULT_GROUP__444444444444444444=MyGroupCommunity
+```
+
 Finally, run the bot:
 ``` bash
 python app.py
 ```
+
+[here 2]
 ---
 ### 🐳 Docker (recommended)
 
