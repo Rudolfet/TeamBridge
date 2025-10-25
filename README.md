@@ -1,8 +1,10 @@
-
-# 🧩 TeamBridge
-
-**TeamBridge** connects Discord teams with their project tools.  
-It helps organize and track requests, ideas, and reports directly from chat — improving coordination without leaving your community server.
+<img src="assets/banner.png" alt="TeamBridge banner" width="100%" />
+# 🧩 TeamBridge  
+A lightweight Discord ↔ Zammad integration bot for managing tickets and tasks across multiple communities.
+![License](https://img.shields.io/github/license/Rudolfet/TeamBridge)
+![Python](https://img.shields.io/badge/python-3.11%2B-blue)
+![Docker](https://img.shields.io/badge/docker-ready-blue)
+discord-bot, zammad, jira, python, docker, automation
 
 ---
 
@@ -87,16 +89,14 @@ python app.py
 
 [here 2]
 ---
-### 🐳 Docker (recommended)
+### 🐳 Run with Docker
 
-If you prefer Docker, you can build and run TeamBridge in one command:
-``` bash
+```bash
 docker compose up --build -d
 ```
-
-To check logs in real time:
+Check logs:
 ``` bash
-docker compose logs -f
+docker logs -f teambridge-bot
 ```
 ---
 ### ⚙️ Configuration variables
