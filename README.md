@@ -47,3 +47,26 @@ Finally, run the bot:
 ``` bash
 python app.py
 ```
+---
+### 🐳 Docker (recommended)
+
+If you prefer Docker, you can build and run TeamBridge in one command:
+``` bash
+docker compose up --build -d
+```
+
+To check logs in real time:
+``` bash
+docker compose logs -f
+```
+---
+### ⚙️ Configuration variables
+| Variable                      | Description                              |
+| ----------------------------- | ---------------------------------------- |
+| `DISCORD_TOKEN`               | Your Discord bot token                   |
+| `GUILD_IDS`                   | Discord server IDs separated by commas   |
+| `DEFAULT_GROUP`               | Default group name for ticket creation   |
+| `ZAMMAD_URL` / `ZAMMAD_TOKEN` | (Optional) Helpdesk backend credentials  |
+| `JIRA_URL` / `JIRA_TOKEN`     | (Optional) Jira backend credentials      |
+| `PUBLIC_ANNOUNCE`             | If `true`, posts ticket summary publicly |
+| `PUBLIC_MENTION_AUTHOR`       | If `true`, mentions the author           |
