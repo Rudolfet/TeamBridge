@@ -83,7 +83,7 @@ docker compose logs -f
 
 ## 🪪 License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT](LICENSE).
 
 ## 🌐 About
 
