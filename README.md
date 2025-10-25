@@ -1,5 +1,6 @@
 ## 🧩TeamBridge
 _A lightweight integration bot connecting Discord with Zammad and (optionally) Jira for multi-community ticket management._
+
 ---
 ![License](https://img.shields.io/github/license/Rudolfet/TeamBridge)
 ![Python](https://img.shields.io/badge/python-3.11%2B-blue)
