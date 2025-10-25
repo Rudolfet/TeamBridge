@@ -85,11 +85,9 @@ Finally, run the bot:
 ``` bash
 python app.py
 ```
-
-[here 2]
 ---
 ### 🐳 Run with Docker
-
+Build and start the container:
 ```bash
 docker compose up --build -d
 ```
@@ -122,7 +120,9 @@ docker logs -f teambridge-bot
 ## 🪪 License
 
 This project is licensed under the [MIT](LICENSE).
-
+### 📄 License
+Licensed under the [MIT License](LICENSE).  
+© 2025 Rudolfet
 ## 🌐 About
 
 TeamBridge is a community-driven initiative to simplify coordination between contributors across multiple Discord servers and projects — uniting communication and task tracking in a single, efficient workflow.
