@@ -70,3 +70,21 @@ docker compose logs -f
 | `JIRA_URL` / `JIRA_TOKEN`     | (Optional) Jira backend credentials      |
 | `PUBLIC_ANNOUNCE`             | If `true`, posts ticket summary publicly |
 | `PUBLIC_MENTION_AUTHOR`       | If `true`, mentions the author           |
+
+---
+
+## 🧱 Tech Stack
+
+* Python 3.11+
+* discord.py >=2.4.0
+* httpx
+* python-dotenv
+* Docker Compose
+
+## 🪪 License
+
+This project is licensed under the MIT License.
+
+## 🌐 About
+
+TeamBridge is a community-driven initiative to simplify coordination between contributors across multiple Discord servers and projects — uniting communication and task tracking in a single, efficient workflow.
