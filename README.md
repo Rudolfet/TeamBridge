@@ -1,5 +1,5 @@
 <img src="assets/banner.png" alt="TeamBridge banner" width="100%" />
-# 🧩 TeamBridge
+## 🧩 TeamBridge
 _A lightweight integration bot connecting Discord with Zammad and (optionally) Jira for multi-community ticket management._
 
 ---
