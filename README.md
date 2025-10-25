@@ -31,3 +31,19 @@ Create your `.env` file (or copy `.env.example`) and fill in your tokens and con
 ```bash
 cp .env.example .env
 ```
+Then edit the `.env` file with your own credentials:
+```
+DISCORD_TOKEN=your_discord_bot_token
+GUILD_IDS=123456789012345678
+ZAMMAD_URL=https://your.zammad.instance
+ZAMMAD_TOKEN=your_zammad_api_token
+
+# Optional
+DEFAULT_GROUP=TicketPersonali
+PUBLIC_ANNOUNCE=true
+PUBLIC_MENTION_AUTHOR=true
+```
+Finally, run the bot:
+``` bash
+python app.py
+```
